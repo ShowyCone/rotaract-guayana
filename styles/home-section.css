@@ -1,0 +1,27 @@
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: calc(100vh - 80px);
+  margin-top: 80px;
+}
+
+.title-container {
+  width: 34.5625rem;
+  height: 7.875rem;
+  flex-shrink: 0;
+  display: grid;
+  place-content: center;
+}
+
+.home-section__title {
+  color: #687d90;
+  text-align: center;
+
+  /* Headlines */
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 3.6rem */
+}
