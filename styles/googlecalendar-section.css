@@ -1,0 +1,24 @@
+.googlecalendar-section {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.googlecalendar-container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1180px;
+  height: 586px;
+  border-radius: 50px;
+}
+
+.calendar {
+  border-radius: 10px;
+}

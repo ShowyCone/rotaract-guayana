@@ -11,3 +11,24 @@
   height: 100vh;
   outline: 2px solid #000;
 }
+
+/* Estilo para Chrome, Edge y Safari */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d91b5c;
+  border-radius: 20px;
+  border: 3px solid #d91b5c;
+}
+
+/* Estilo para Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #d91b5c #fff;
+}

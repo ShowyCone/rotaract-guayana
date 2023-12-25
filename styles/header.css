@@ -9,6 +9,7 @@
   align-items: center;
   position: fixed;
   z-index: 10;
+  transition: transform 0.3s ease-in-out;
 }
 
 .main-nav {
@@ -60,3 +61,13 @@
   background-color: #d91b5c;
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.2);
 }
+
+.main-header.scroll-active {
+  transform: translateY(0);
+}
+
+.main-header.scroll-hidden {
+  transform: translateY(-100%);
+}
+
+/* Responsive */

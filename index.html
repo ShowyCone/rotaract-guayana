@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="./styles/header.css">
   <link rel="stylesheet" href="./styles/home-section.css">
   <link rel="stylesheet" href="./styles/projects-section.css">
+  <link rel="stylesheet" href="./styles/testimonials-section.css">
+  <link rel="stylesheet" href="./styles/howtotakepart-section.css">
+  <link rel="stylesheet" href="./styles/googlecalendar-section.css">
   <link rel="shortcut icon" href="./assets/logo-rotaract.webp">
   <title>Rotaract Guayana</title>
 </head>
@@ -49,26 +52,133 @@
         <h1 class="projects-section__title">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
       </div>
       <div class="projects-section__buttons-container">
-        <div class="projects-section__buttons-container1">
+        <div class="projects-section__buttons-row">
           <button class="projects-section__buttons">City 1</button>
           <button class="projects-section__buttons">City 2</button>
           <button class="projects-section__buttons">City 3</button>
           <button class="projects-section__buttons">City 4</button>
         </div>
-        <div class="projects-section__buttons-container2">
+        <div class="projects-section__buttons-row">
           <button class="projects-section__buttons">City 5</button>
           <button class="projects-section__buttons">City 6</button>
           <button class="projects-section__buttons">City 7</button>
         </div>
       </div>
-      <div class="projects-section__cards-container">
-        <div class="projects-section__cards">image here</div>
-        <div class="projects-section__cards">image here</div>
-        <div class="projects-section__cards">image here</div>
+      <div class="carousel-container">
+        <div class="projects-section__cards-container">
+          <div class="projects-section__cards">Image 1</div>
+          <div class="projects-section__cards">Image 2</div>
+          <div class="projects-section__cards">Image 3</div>
+          <div class="projects-section__cards">Image 4</div>
+          <div class="projects-section__cards">Image 5</div>
+          <div class="projects-section__cards">Image 6</div>
+          <div class="projects-section__cards">Image 7</div>
+        </div>
+
+        <button id="prevBtn" onclick="prevSlide()">❮</button>
+        <button id="nextBtn" onclick="nextSlide()">❯</button>
       </div>
     </section>
+
+    <section class="testimonials-section">
+      <div class="title-container">
+        <h1 class="testimonials-section__title">Esto es lo que dicen nuestros socios sobre Rotaract</h1>
+      </div>
+
+      <div class="testimonials-container">
+
+        <article class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="" alt="">
+          </div>
+          <div class="testimonial-text">
+            <h6>Lorem ipsum</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio porro at nobis eaque praesentium iure
+              temporibus cupiditate, facere</p>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="" alt="">
+          </div>
+          <div class="testimonial-text">
+            <h6>Lorem ipsum</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio porro at nobis eaque praesentium iure
+              temporibus cupiditate, facere</p>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="" alt="">
+          </div>
+          <div class="testimonial-text">
+            <h6>Lorem ipsum</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio porro at nobis eaque praesentium iure
+              temporibus cupiditate, facere</p>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="" alt="">
+          </div>
+          <div class="testimonial-text">
+            <h6>Lorem ipsum</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio porro at nobis eaque praesentium iure
+              temporibus cupiditate, facere</p>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="" alt="">
+          </div>
+          <div class="testimonial-text">
+            <h6>Lorem ipsum</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio porro at nobis eaque praesentium iure
+              temporibus cupiditate, facere</p>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="" alt="">
+          </div>
+          <div class="testimonial-text">
+            <h6>Lorem ipsum</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio porro at nobis eaque praesentium iure
+              temporibus cupiditate, facere</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="howtotakepart-section">
+      <div class="title-container">
+        <h1 class="howtotakepart-section__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+      </div>
+      <div class="howtotakepart-section-explain">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae a
+          accusantium nostrum quaerat laudantium
+          temporibus? Numquam quasi fugit eius expedita dicta non neque sit veritatis perspiciatis recusandae, aliquam
+          sequi ullam omnis quis amet quaerat!</p>
+      </div>
+      <div class="idk"></div>
+    </section>
+
+    <section class="googlecalendar-section">
+      <article class="googlecalendar-container">
+        <iframe class="calendar"
+          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FCaracas&src=OTIxMmQxZjU1ZTNjMmZiNDgzZDQxYWRhNjRlNTE3MGNhMzdhYjkyNjQ1YTQzMjc2YTcxMTAyMGI2MWJlNGQ5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y2xhc3Nyb29tMTA5MzUzODEwMzIzNDI1MTU5NDE0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTAxMzI3Njk2NzkxODgxMzQ0NDcxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA4MDcyNTEyOTI3MjY3MTk0MDcxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udmUjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTEzNTk0OTM3MjUyMTQzODQ1ODYwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA3MzM4MjM4OTgxNjA4NzA3ODk4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTE4MTMyNDg2MDMwMzIyMDIyODQyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTAxODA4Mzg2MzgyNjE1NzkwOTE1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA3MDQ5OTg5ODQzNDE4NjA1MjA3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23D50000&color=%23202124&color=%23c26401&color=%23202124&color=%230B8043&color=%230047a8&color=%230047a8&color=%23007b83&color=%237627bb&color=%230047a8"
+          style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </article>
+    </section>
   </main>
-  <script src="./scripts/script.js"></script>
+  <script src="./scripts/scrollScript.js"></script>
+  <script src="./scripts/caroussel.js"></script>
 </body>
 
 </html>
