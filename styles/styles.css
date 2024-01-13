@@ -56,12 +56,13 @@
   align-items: center;
   width: 50%;
   height: 100vh;
-  background-color: #687d90;
+  background-color: #d91b5c;
 }
 
 .aboutus-section-contenedor-img img {
   width: 637px;
   height: 406px;
+  border-radius: 16px;
   object-fit: cover;
 }
 
