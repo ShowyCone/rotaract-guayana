@@ -62,6 +62,7 @@
 .aboutus-section-contenedor-img img {
   width: 637px;
   height: 406px;
+  object-fit: cover;
 }
 
 .aboutus-section article {
