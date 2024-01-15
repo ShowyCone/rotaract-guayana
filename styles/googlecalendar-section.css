@@ -7,6 +7,7 @@
   justify-content: center;
   flex-direction: column;
   padding: 40px;
+  background-color: #d91b5c;
 }
 
 .googlecalendar-container {
