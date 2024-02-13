@@ -1,52 +1,53 @@
-footer{
-    background-color: #d91b5c;
-    width: 100%;
-    padding: 20px 0;
+footer {
+  background-color: #d91b5c;
+  width: 100%;
+  height: 45vh;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.footer-contenedor-imagen{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
+.footer-contenedor-imagen {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.footer-contenedor-imagen img{
-    width: 15%;
+.footer-contenedor-imagen img {
+  width: 15%;
 }
 
-.footer-contenedor-enlaces{
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 10px;
+.footer-contenedor-enlaces {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
-footer div ul{
-    width: 100%;
-    text-align: center;
+footer div ul {
+  width: 100%;
+  text-align: center;
   display: flex;
   justify-content: space-around;
 }
 
-footer div ul li{
-    float: left;
-    
-    list-style: none;
-    text-align: center;
-    
-}
-footer div ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Open Sans';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
-}
-.footer-contenedor-redesSociales{
+footer div ul li {
+  float: left;
 
-    width: 15%;
-    margin: 0 auto;
+  list-style: none;
+  text-align: center;
 }
-.footer-contenedor-redesSociales li a{
-
-    font-size: 23px;
+footer div ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.footer-contenedor-redesSociales {
+  width: 15%;
+  margin: 0 auto;
+}
+.footer-contenedor-redesSociales li a {
+  font-size: 23px;
 }

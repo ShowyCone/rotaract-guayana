@@ -27,10 +27,54 @@
 }
 
 .projects-section__buttons {
-  width: 25%;
-  height: 50px;
+  width: 20%;
+  padding: 15px;
+  height: 70px;
   margin: 5px;
   border-radius: 30px;
+  border: solid 1px #ccc;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.projects-section__buttons-row:nth-child(1)
+  .projects-section__buttons:nth-child(1) {
+  color: #1174ba;
+  border-color: #1174ba;
+}
+
+.projects-section__buttons-row:nth-child(1)
+  .projects-section__buttons:nth-child(2) {
+  color: #e22726;
+  border-color: #e22726;
+}
+
+.projects-section__buttons-row:nth-child(1)
+  .projects-section__buttons:nth-child(3) {
+  color: #01b4e7;
+  border-color: #01b4e7;
+}
+
+.projects-section__buttons-row:nth-child(1)
+  .projects-section__buttons:nth-child(4) {
+  color: #8e288f;
+  border-color: #8e288f;
+}
+
+.projects-section__buttons-row:nth-child(2)
+  .projects-section__buttons:nth-child(1) {
+  color: #f47621;
+  border-color: #f47621;
+}
+.projects-section__buttons-row:nth-child(2)
+  .projects-section__buttons:nth-child(2) {
+  color: #00acbb;
+  border-color: #00acbb;
+}
+.projects-section__buttons-row:nth-child(2)
+  .projects-section__buttons:nth-child(3) {
+  color: #00964d;
+  border-color: #00964d;
 }
 
 .projects-section__buttons-row {
