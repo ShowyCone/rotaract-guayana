@@ -5,6 +5,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Estilo para Chrome, Edge y Safari */
 ::-webkit-scrollbar {
   width: 12px;
