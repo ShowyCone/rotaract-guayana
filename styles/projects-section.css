@@ -213,6 +213,14 @@
   transition: 0.6s ease;
   border-radius: 50%;
   border: none;
+  background-color: #d91b5c;
+  border: solid 2px #ffffff;
+  color: #ffffff;
+}
+
+#prevBtn:hover,
+#nextBtn:hover {
+  background-color: #fb3d7e;
 }
 
 #prevBtn {
