@@ -163,7 +163,7 @@
   position: absolute;
   backface-visibility: hidden;
   transform: rotateY(180deg);
-  background-color: #00000099;
+  background-color: #000000bb;
   color: #ffffff;
   border-radius: 30px;
 
@@ -174,15 +174,42 @@
 }
 
 /* Card front */
-.projects-section__img {
-  z-index: 10;
-
+.projects-section__image-front {
   width: calc(100% - 20px);
   height: calc(100% - 20px);
+  border-radius: inherit;
+  position: absolute;
+  cursor: pointer;
+}
+
+.projects-section__image-front::after {
+  width: 100%;
+  height: 100%;
+  background-color: #000000bb;
+  pointer-events: none;
+
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+  display: grid;
+  place-items: center;
+}
+
+.projects-section__image-front:hover::after {
+  content: 'CLICK PARA MÁS INFORMACIÓN';
+}
+
+.projects-section__img {
+  position: absolute;
   object-fit: cover;
   border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 
-  position: absolute;
   backface-visibility: hidden;
 }
 
