@@ -6,14 +6,13 @@
 }
 
 @font-face {
-  font-family: 'open-sans-regular';
+  font-family: 'Open Sans Regular';
   src: url('../fonts/open-sans.regular.ttf') format('truetype');
-  font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'open-sans-condensed';
+  font-family: 'Open Sans Condensed';
   src: url('../fonts/open-sans-condensed.bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;

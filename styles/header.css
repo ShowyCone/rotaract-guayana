@@ -11,6 +11,7 @@
   position: fixed;
   z-index: 10;
   transition: transform 0.3s ease-in-out;
+  font-family: 'Open Sans Regular';
 }
 
 .main-nav {

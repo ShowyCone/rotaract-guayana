@@ -48,9 +48,11 @@
 .cu-title {
   font-weight: 800;
   font-size: 2em;
+  font-family: 'Open Sans Condensed';
 }
 .cu-subtitle {
   font-size: 1em;
+  font-family: 'Open Sans Regular';
 }
 
 .cu-group-text {

@@ -25,6 +25,8 @@
   font-style: normal;
   font-weight: 800;
   line-height: 120%;
+
+  font-family: 'Open Sans Condensed';
 }
 
 .testimonial-card {
@@ -57,12 +59,14 @@
 
 .testimonial-text {
   width: 70%;
+  font-family: 'Open Sans Regular';
 }
 
 .testimonial-text h6 {
   font-weight: 700;
   font-size: 1.4em;
   line-height: 120%;
+  font-family: 'Open Sans Condensed';
 }
 
 .rotaract-member {

@@ -18,9 +18,7 @@
 }
 
 .aboutus-section-contenido h2 {
-  font-stretch: condensed;
-  font-family: 'Open Sans';
-  font-weight: bold;
+  font-family: 'Open Sans Condensed';
   color: #687d90;
   font-size: 36px;
   line-height: 120%;
@@ -32,10 +30,9 @@
 
 .aboutus-section-contenido p {
   font-size: 1.125rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Regular';
   letter-spacing: 0;
   text-align: left;
-  font-stretch: normal;
   line-height: 120%;
   margin: 0 auto;
   padding: 0;

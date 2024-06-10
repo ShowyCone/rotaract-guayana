@@ -17,6 +17,8 @@
   font-style: normal;
   font-weight: 800;
   line-height: 120%;
+
+  font-family: 'Open Sans Condensed';
 }
 
 .howtotakepart-section-explain {
@@ -27,7 +29,7 @@
 .howtotakepart-section-explain p {
   text-align: center;
 
-  font-family: Open Sans;
+  font-family: 'Open Sans Regular';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;

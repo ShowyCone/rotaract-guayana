@@ -6,6 +6,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-family: 'Open Sans Regular';
 }
 .footer-contenedor-imagen {
   width: 100%;
