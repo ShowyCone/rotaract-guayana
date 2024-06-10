@@ -5,6 +5,20 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+@font-face {
+  font-family: 'open-sans-regular';
+  src: url('../fonts/open-sans.regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open-sans-condensed';
+  src: url('../fonts/open-sans-condensed.bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 html {
   scroll-behavior: smooth;
 }
