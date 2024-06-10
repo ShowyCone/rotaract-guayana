@@ -28,3 +28,7 @@ body {
   scrollbar-width: thin;
   scrollbar-color: #d91b5c #fff;
 }
+
+section {
+  width: 100vw;
+}
