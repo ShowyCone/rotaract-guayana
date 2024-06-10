@@ -29,14 +29,15 @@
 
 .projects-section__buttons {
   width: 20%;
-  padding: 15px;
   height: 70px;
   margin: 5px;
-  border-radius: 30px;
+  border-radius: 60px 30px 30px 60px;
   border: solid 1px #ccc;
   font-weight: bold;
   font-size: 0.9em;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .projects-section__buttons:hover {
@@ -255,4 +256,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.projects-section__buttons img {
+  height: 100%;
+  object-fit: cover;
+  justify-self: left;
 }
