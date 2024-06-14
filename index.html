@@ -51,7 +51,7 @@
         <div class="title-container">
           <h1 class="home-section__title">DAR DE SÍ, ANTES DE PENSAR EN TI</h1>
         </div>
-        <video autoplay muted loop>
+        <video autoplay muted loop loading="lazy">
           <source src="./assets/video-intro.webm" type="video/mp4" />
           Tu navegador no soporta el formato de vídeo
         </video>
@@ -60,7 +60,12 @@
       <section class="aboutus-section" id="aboutus">
         <article>
           <div class="aboutus-section-contenedor-img">
-            <img src="./assets/13.webp" alt="si" />
+            <img
+              src="./assets/13.webp"
+              alt="reunion de personas"
+              loading="lazy"
+              class="lazy"
+            />
           </div>
           <div class="aboutus-section-contenido">
             <h2>SOMOS JÓVENES PROFESIONALES CON VOCACIÓN DE SERVICIO</h2>
@@ -86,7 +91,12 @@
             </p>
           </div>
           <div class="aboutus-section-contenedor-img">
-            <img src="./assets/14.webp" alt="si" />
+            <img
+              src="./assets/14.webp"
+              alt="socios de Rotaract"
+              loading="lazy"
+              class="lazy"
+            />
           </div>
         </article>
       </section>
@@ -161,7 +171,8 @@
                   <img
                     src="./assets/projects/1.webp"
                     alt="project-image-1"
-                    class="projects-section__img"
+                    class="projects-section__img lazy"
+                    loading="lazy"
                   />
                 </div>
                 <div class="projects-section__info-reverse">
@@ -183,7 +194,8 @@
                   <img
                     src="./assets/projects/2.webp"
                     alt="project-image-2"
-                    class="projects-section__img"
+                    class="projects-section__img lazy"
+                    loading="lazy"
                   />
                 </div>
                 <div class="projects-section__info-reverse">
@@ -203,7 +215,8 @@
                   <img
                     src="./assets/projects/3.webp"
                     alt="project-image-3"
-                    class="projects-section__img"
+                    class="projects-section__img lazy"
+                    loading="lazy"
                   />
                 </div>
                 <div class="projects-section__info-reverse">
@@ -225,7 +238,8 @@
                   <img
                     src="./assets/projects/4.webp"
                     alt="project-image-4"
-                    class="projects-section__img"
+                    class="projects-section__img lazy"
+                    loading="lazy"
                   />
                 </div>
                 <div class="projects-section__info-reverse">
@@ -247,7 +261,8 @@
                   <img
                     src="./assets/projects/5.webp"
                     alt="project-image-5"
-                    class="projects-section__img"
+                    class="projects-section__img lazy"
+                    loading="lazy"
                   />
                 </div>
                 <div class="projects-section__info-reverse">
@@ -269,7 +284,8 @@
                   <img
                     src="./assets/projects/6.webp"
                     alt="project-image-6"
-                    class="projects-section__img"
+                    class="projects-section__img lazy"
+                    loading="lazy"
                   />
                 </div>
                 <div class="projects-section__info-reverse">
@@ -291,7 +307,8 @@
                   <img
                     src="./assets/projects/7.webp"
                     alt="project-image-7"
-                    class="projects-section__img"
+                    class="projects-section__img lazy"
+                    loading="lazy"
                   />
                 </div>
                 <div class="projects-section__info-reverse">
@@ -541,5 +558,6 @@
     </footer>
     <script src="./scripts/scrollScript.js"></script>
     <script src="./scripts/caroussel.js"></script>
+    <script src="./scripts/imageAnimation.js"></script>
   </body>
 </html>
