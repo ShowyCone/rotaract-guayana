@@ -39,6 +39,9 @@
   align-items: center;
   padding: 40px 20px;
   color: #687d90;
+
+  transform: scale(0.8);
+  transition: transform 0.5s ease-in-out;
 }
 
 .testimonial-image {

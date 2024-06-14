@@ -64,3 +64,20 @@ section {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.scale-up-animate {
+  animation-name: scaleUp;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
